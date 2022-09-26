@@ -1,0 +1,260 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5085691100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.openBrowser()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Verify Application Landing Page",
+        "description": "",
+        "id": "test-free-crm-web-application;verify-application-landing-page",
+        "after": [
+          {
+            "result": {
+              "duration": 88077800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2494023300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on Application Landing Page",
+            "match": {
+              "location": "LoginSteps.user_is_on_Application_Landing_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[Free CRM software for customer relationship management, sales, marketing campaigns and support.]\u003e but was:\u003c[#1 Free CRM customer relationship management software cloud]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat com.cucumber.stepdefinitions.LoginSteps.verify_user_is_on_Application_Landing_Page(LoginSteps.java:47)\r\n\tat ✽.Verify user is on Application Landing Page(src/main/java/com/cucumber/features/Application.feature:5)\r\n",
+              "duration": 15033600,
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "Verify user is on Application Landing Page",
+            "match": {
+              "location": "LoginSteps.verify_user_is_on_Application_Landing_Page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "User enters the Loggin Area",
+            "match": {
+              "location": "LoginSteps.user_enters_the_Loggin_Area()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "Verify user is on the Loggin Area",
+            "match": {
+              "location": "LoginSteps.Verify_user_is_on_the_Loggin_Area()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2538612000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.openBrowser()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Application Login",
+        "description": "",
+        "id": "test-free-crm-web-application;application-login",
+        "after": [
+          {
+            "result": {
+              "duration": 153048800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2045153400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User is on Application Landing Page",
+            "match": {
+              "location": "LoginSteps.user_is_on_Application_Landing_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"link text\",\"selector\":\"Login\"}\n  (Session info: chrome\u003d105.0.5195.127)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.14.0\u0027, revision: \u0027aacccce0\u0027, time: \u00272018-08-02T20:19:58.91Z\u0027\nSystem info: host: \u0027SWO-35097263\u0027, ip: \u0027192.168.1.4\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_202\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\\Users\\JULIAN~1.PAT\\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:53691}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 988d19c604970a3ca3eabc4b9d6089a0\n*** Element info: {Using\u003dlink text, value\u003dLogin}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:376)\r\n\tat org.openqa.selenium.By$ByLinkText.findElement(By.java:220)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy15.click(Unknown Source)\r\n\tat com.cucumberpom.pages.LoginPage.enterAreaOfLogin(LoginPage.java:27)\r\n\tat com.cucumber.stepdefinitions.LoginSteps.user_enters_the_Loggin_Area(LoginSteps.java:54)\r\n\tat ✽.User enters the Loggin Area(src/main/java/com/cucumber/features/Application.feature:11)\r\n",
+              "duration": 60092880300,
+              "status": "failed"
+            },
+            "line": 11,
+            "name": "User enters the Loggin Area",
+            "match": {
+              "location": "LoginSteps.user_enters_the_Loggin_Area()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "Login FreeCRM Application",
+            "match": {
+              "location": "LoginSteps.login_FreeCRM_Application()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "Verify User is on Application Home",
+            "match": {
+              "location": "HomePageSteps.verify_User_is_on_Application_Home()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2366719500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.openBrowser()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Create New Contact in Application",
+        "description": "",
+        "id": "test-free-crm-web-application;create-new-contact-in-application",
+        "after": [
+          {
+            "result": {
+              "duration": 2431825400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1865095100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User is on Application Landing Page",
+            "match": {
+              "location": "LoginSteps.user_is_on_Application_Landing_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"link text\",\"selector\":\"Login\"}\n  (Session info: chrome\u003d105.0.5195.127)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.14.0\u0027, revision: \u0027aacccce0\u0027, time: \u00272018-08-02T20:19:58.91Z\u0027\nSystem info: host: \u0027SWO-35097263\u0027, ip: \u0027192.168.1.4\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_202\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\\Users\\JULIAN~1.PAT\\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:53742}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: d069b3f1c5f5361fc3c479ff83847dfc\n*** Element info: {Using\u003dlink text, value\u003dLogin}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:376)\r\n\tat org.openqa.selenium.By$ByLinkText.findElement(By.java:220)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy15.click(Unknown Source)\r\n\tat com.cucumberpom.pages.LoginPage.enterAreaOfLogin(LoginPage.java:27)\r\n\tat com.cucumber.stepdefinitions.LoginSteps.user_enters_the_Loggin_Area(LoginSteps.java:54)\r\n\tat ✽.User enters the Loggin Area(src/main/java/com/cucumber/features/Application.feature:17)\r\n",
+              "duration": 60057340800,
+              "status": "failed"
+            },
+            "line": 17,
+            "name": "User enters the Loggin Area",
+            "match": {
+              "location": "LoginSteps.user_enters_the_Loggin_Area()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "Login FreeCRM Application",
+            "match": {
+              "location": "LoginSteps.login_FreeCRM_Application()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "Open Contact Page",
+            "match": {
+              "location": "HomePageSteps.open_Contact_Page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "Create New Contact clicking On Button Plus",
+            "match": {
+              "location": "HomePageSteps.create_New_Contact_clicking_on_button_plus()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test Free CRM Web Application",
+    "description": "",
+    "id": "test-free-crm-web-application",
+    "keyword": "Feature",
+    "uri": "src/main/java/com/cucumber/features/Application.feature"
+  }
+]
