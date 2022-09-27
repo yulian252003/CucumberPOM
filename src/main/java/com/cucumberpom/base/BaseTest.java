@@ -19,7 +19,7 @@ public class BaseTest
 	{
 		prop = new Properties();
 		try {
-			FileInputStream fis = new FileInputStream(System.getProperty("user.dir") + "\\src\\main\\java\\com\\cucumberpom\\config\\config.properties");
+			FileInputStream fis = new FileInputStream(System.getProperty("user.dir")+"/src/main/java/com/cucumberpom/config/config.properties");
 			prop.load(fis);
 		     } 
 		catch (IOException e)
@@ -31,10 +31,12 @@ public class BaseTest
 	public static void initBrowser()
 	{
 		String browser = prop.getProperty("browser");
+		//browser="chrome";
 		if(browser.equalsIgnoreCase("chrome"))
 		{
 			System.setProperty("webdriver.chrome.driver",
-				    System.getProperty("user.dir") + "\\resources\\chromedriver.exe");
+					//System.getProperty("user.dir") + "\\resources\\chromedriver.exe"); windows
+				    System.getProperty("user.dir")+"/resources/chromedriver");
 			driver = new ChromeDriver();
 		}
 		else 

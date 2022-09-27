@@ -1,0 +1,9 @@
+/home/julian/Documents/workspace-spring-tool-suite-4-4.16.0.RELEASE/aspor-test/src/main/java/com/cucumberpom/base/BaseTest.java
+/home/julian/Documents/workspace-spring-tool-suite-4-4.16.0.RELEASE/aspor-test/src/main/java/com/cucumberpom/runner/TestRunner.java
+/home/julian/Documents/workspace-spring-tool-suite-4-4.16.0.RELEASE/aspor-test/src/main/java/com/cucumber/stepdefinitions/LoginSteps.java
+/home/julian/Documents/workspace-spring-tool-suite-4-4.16.0.RELEASE/aspor-test/src/main/java/com/cucumberpom/pages/LoginPage.java
+/home/julian/Documents/workspace-spring-tool-suite-4-4.16.0.RELEASE/aspor-test/src/main/java/com/cucumberpom/pages/ContactsPage.java
+/home/julian/Documents/workspace-spring-tool-suite-4-4.16.0.RELEASE/aspor-test/src/main/java/com/cucumberpom/utils/Constants.java
+/home/julian/Documents/workspace-spring-tool-suite-4-4.16.0.RELEASE/aspor-test/src/main/java/com/cucumber/stepdefinitions/HomePageSteps.java
+/home/julian/Documents/workspace-spring-tool-suite-4-4.16.0.RELEASE/aspor-test/src/main/java/com/cucumber/stepdefinitions/ContactsSteps.java
+/home/julian/Documents/workspace-spring-tool-suite-4-4.16.0.RELEASE/aspor-test/src/main/java/com/cucumberpom/pages/HomePage.java

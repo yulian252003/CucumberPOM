@@ -5,8 +5,8 @@ import org.junit.Assert;
 import com.cucumberpom.base.BaseTest;
 import com.cucumberpom.pages.ContactsPage;
 import com.cucumberpom.pages.HomePage;
-
-import cucumber.api.java.en.Then;
+//import cucumber.api.java.en.Then;
+import io.cucumber.java.en.*;
 
 public class HomePageSteps extends BaseTest
 {

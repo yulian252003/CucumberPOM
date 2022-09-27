@@ -6,11 +6,13 @@ import com.cucumberpom.base.BaseTest;
 import com.cucumberpom.pages.HomePage;
 import com.cucumberpom.pages.LoginPage;
 import org.junit.Assert;
-import cucumber.api.java.After;
-import cucumber.api.java.Before;
-import cucumber.api.java.en.Given;
-import cucumber.api.java.en.Then;
+//import cucumber.api.java.After;
+//import cucumber.api.java.Before;
+//import cucumber.api.java.en.Given;
+//import cucumber.api.java.en.Then;
 //import junit.framework.Assert;
+import io.cucumber.java.*;
+import io.cucumber.java.en.*;
 
 public class LoginSteps extends BaseTest
 {
@@ -43,14 +45,15 @@ public class LoginSteps extends BaseTest
     public void verify_user_is_on_Application_Landing_Page()
     {
     	String actualTittle = loginPage.getTitle();
-    	String expectedTitle = "#1 Free CRM customer relationship management software cloud";
+    	String expectedTitle = "Free CRM software for customer relationship management";
     	Assert.assertEquals(expectedTitle, actualTittle);
     }
 	
 	  @Then("^User enters the Loggin Area$")
-	    public void user_enters_the_Loggin_Area()
+	    public void user_enters_the_Loggin_Area() throws InterruptedException
 	    
 	    {
+		  Thread.sleep(20000);
 	    	loginPage.enterAreaOfLogin();
 	    }
 	  
