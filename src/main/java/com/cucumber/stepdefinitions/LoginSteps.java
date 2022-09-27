@@ -43,7 +43,7 @@ public class LoginSteps extends BaseTest
     public void verify_user_is_on_Application_Landing_Page()
     {
     	String actualTittle = loginPage.getTitle();
-    	String expectedTitle = "Free CRM software for customer relationship management, sales, marketing campaigns and support.";
+    	String expectedTitle = "#1 Free CRM customer relationship management software cloud";
     	Assert.assertEquals(expectedTitle, actualTittle);
     }
 	
